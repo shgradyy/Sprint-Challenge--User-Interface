@@ -55,7 +55,28 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+header{
+display: flex;
+flex-flow: row;
+}
+.logo{
+        left:10px;
+        top:10px;
+        margin: 0px 15px 15px 0px;
+}
+#top-nav-bar {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.top-nav {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -77,6 +98,9 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+h2{
+    font-weight: 700;
 }
 
 .top-content .text-container {
@@ -110,6 +134,37 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dogerblue;
 }
 
 .bottom-content {
